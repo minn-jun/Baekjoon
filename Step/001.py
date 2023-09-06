@@ -1,28 +1,28 @@
-#1
+#2557
 print("Hello World!")
 
 
-#2
+#1000
 A, B = map(int, input().split())
 print(A + B)
 
 
-#3
+#1001
 A, B = map(int, input().split())
 print(A - B)
 
 
-#4
+#10998
 A, B = map(int, input().split())
 print(A * B)
 
 
-#5
+#1008
 A, B = map(int, input().split())
 print(A / B)
 
 
-#6
+#10869
 A, B = map(int, input().split())
 print(A + B)
 print(A - B)
@@ -31,22 +31,22 @@ print(A // B)
 print(A % B)
 
 
-#7
+#10926
 print(input()+"??!")
 
 
-#8
+#18108
 print(int(input()) - 543)
 
 
-#9
+#10430
 A, B, C = map(int, input().split())
 print((A+B)%C)
 print(((A%C)+(B%C))%C)
 print((A*B)%C)
 print(((A%C)*(B%C))%C)
 
-#10
+#2588
 A = int(input())
 B = int(input())
 print(A*(B%10))
@@ -55,18 +55,18 @@ print(A*(B//100))
 print(A*B)
 
 
-#11
+#11382
 A, B, C = map(int, input().split())
 print(A+B+C)
 
 
-#12
+#10171
 print("\    /\\")
 print(" )  ( ')")
 print("(  /  )")
 print(" \(__)|")
 
-#13
+#10172
 print("|\_/|")
 print("|q p|   /}")
 print("( 0 )\"\"\"\\")
