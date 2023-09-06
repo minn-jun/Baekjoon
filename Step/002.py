@@ -1,4 +1,4 @@
-#1
+#1330
 A, B = map(int, input().split())
 if A > B:
     print('>')
@@ -8,7 +8,7 @@ else:
     print('==')
 
 
-#2
+#9498
 score = int(input())
 if score >= 90:
     print('A')
@@ -22,7 +22,7 @@ else:
     print('F')
 
 
-#3
+#2753
 year = int(input())
 con_1 = (year % 4 == 0) and (year % 100 != 0)
 con_2 = year % 400 == 0
@@ -32,7 +32,7 @@ else:
     print(0)
 
 
-#4
+#14681
 x = int(input())
 y = int(input())
 if x>0 and y>0:
@@ -45,7 +45,7 @@ else:
     print(4)
 
 
-#5
+#2884
 H, M = map(int, input().split())
 if M-45 >= 0:
     M-=45
@@ -57,7 +57,7 @@ else:
 print(H, M)
 
 
-#6
+#2525
 a, b = map(int, input().split())
 c = int(input())
 a+=(c//60)
@@ -70,7 +70,7 @@ if a >= 24:
 print(a, b)
 
 
-#7
+#2480
 a, b, c = map(int, input().split())
 if a==b==c:
     money = 10000+a*1000
