@@ -23,6 +23,7 @@ print(min(l), max(l))
 # l = []
 # for i in range(9):
 #     l.append(int(input()))
+
 l = [int(input()) for i in range(9)]  # 한 줄 for
 print(max(l))
 print(l.index(max(l))+1)
