@@ -43,6 +43,16 @@
 #     print(n_set[cnt.index(max(cnt))])
 
 
-#2941
+# #2941
+# cro = ["c=", "c-", "c-", "dz=", "d-", "lj", "nj", "s=", "z="]
+# s = input()
+# for i in cro:
+#     s = s.replace(i, '*')
+# print(len(s))
+
+
 #1316
+
+
+
 #25206
