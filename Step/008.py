@@ -1,6 +1,6 @@
-# #2745
-# n, b = map(str, input().split())
-# print(int(n, int(b)))
+#2745
+n, b = map(str, input().split())
+print(int(n, int(b)))
 
 # n, b = map(str, input().split())
 # b = int(b)
@@ -18,58 +18,67 @@
 # print(num)
 
 
-# #11005
-# n, b = map(int, input().split())
-# num = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-# l = []
-# while n//b != 0:
-#     l.insert(0, n%b)
-#     n = n//b
-# l.insert(0, n%b)
-# for i in l:
-#     print(num[i], end='')
+#11005
+n, b = map(int, input().split())
+num = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+l = []
+while n//b != 0:
+    l.insert(0, n%b)
+    n = n//b
+l.insert(0, n%b)
+for i in l:
+    print(num[i], end='')
 
 
-# #2720
-# t = int(input())
-# for i in range(t):
-#     c = int(input())
-#     q = c//25
-#     d = (c%25)//10
-#     n = ((c%25)%10)//5
-#     p = ((c%25)%10)%5
-#     print(q, d, n, p)
+#2720
+t = int(input())
+for i in range(t):
+    c = int(input())
+    q = c//25
+    d = (c%25)//10
+    n = ((c%25)%10)//5
+    p = ((c%25)%10)%5
+    print(q, d, n, p)
 
 
-# #2903
-# n = int(input())
-# print((1+2**n)**2)
+#2903
+n = int(input())
+print((1+2**n)**2)
 
 
 #2292
+n = int(input())
+cnt = 0
+n -= 1
+while True:
+    if n <= 0:
+        print(cnt + 1)
+        break
+    cnt += 1
+    n -= cnt*6
 
 
-# #1193
-# x = int(input())
-# y = x
-# line = 1
-# while x > line:
-#     x -= line
-#     line += 1
-# idx = int(y - (line*(line-1)/2))
-# if line % 2 == 0:
-#     a = idx
-#     b = line-idx+1
-# elif line % 2 != 0:
-#     a = line-idx+1
-#     b = idx
-# print(f"{a}/{b}")
+#1193
+x = int(input())
+y = x
+line = 1
+while x > line:
+    x -= line
+    line += 1
+idx = int(y - (line*(line-1)/2))
+if line % 2 == 0:
+    a = idx
+    b = line-idx+1
+elif line % 2 != 0:
+    a = line-idx+1
+    b = idx
+print(f"{a}/{b}")
 
 
-# #2869
-# a, b, v = map(int, input().split())
-# d = (v-b)/(a-b)
-# if int(d) == d:
-#     print(int(d))
-# else:
-#     print(int(d)+1)
+#2869
+a, b, v = map(int, input().split())
+d = (v-b)/(a-b)
+if int(d) == d:
+    print(int(d))
+else:
+    print(int(d)+1)
